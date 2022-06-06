@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    height: 672px;
+    width: 979.53px;
+    background-image: url(./source/background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#Human-One {
+    position: absolute;
+    margin: 237px 115px;
+}
+#Human-Two {
+    position: absolute;
+    margin: 245px 165px;
+}
+#Human-Three {
+    position: absolute;
+    margin: 467px 344px;
+}
+#Human-Four {
+    position: absolute;
+    margin: 475px 401px;
+}
+#Human-Five {
+    position: absolute;
+    margin: 178px 715px;
+}
+#Human-Six {
+    position: absolute;
+    margin: 250px 805px;
+}
+#Human-Seven {
+    position: absolute;
+    margin: 430px 600px;
+}
+#Human-Eight {
+    position: absolute;
+    margin: 390px 810px;
+}
+#hun{
+    display: flex;
+    justify-content: center;
+    background-image: url("./source/hun-stand.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 20%;
+    z-index: 1;
+}
+.area{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    margin: 232px 420px;
+<<<<<<< HEAD
+    /* background-color: aliceblue; */
+=======
+>>>>>>> 929e650a0dac05b4e6039cb9efaa42dca3151c8d
+}
+.area1{
+    position: absolute;
+    height: 156px;
+    width: 50px;
+    margin: 258px 925px;
+}
+.pressE{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin: -610px 0px 0px 750px;
+    background-image: url('../../museum/images/museum-uzver-room2-source/source/eButton.svg');
+    background-size: 100% 100%;
+}

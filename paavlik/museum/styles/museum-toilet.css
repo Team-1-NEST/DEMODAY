@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg {
+    height: 672px;
+    width: 979.53px;
+    display: flex;
+    background-image: url(../images/museum-toilet.svg);
+    background-size: 979.53px 672px;
+}
+
+#hun{
+    display: flex;
+    justify-content: center;
+    background-image: url("../../museum/images/hun-stand.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 7%;
+    height: 15%;
+}
+.area {
+    background-color: black;
+    height: 150px;
+    width: 50px;
+    margin: 400px 0px;
+}

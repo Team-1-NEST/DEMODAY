@@ -1,0 +1,95 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: absolute;
+    margin: 0px;
+}
+
+.background {
+    height: 672px;
+    width: 979.53px;
+    background-image: url(./images/zaisan.svg);
+    background-size: 979.53px 672px;
+    display: flex;
+    position: absolute;
+}
+
+.hun1 {
+    height: 103.5px;
+    width: 46px;
+    background-image: url(../images/hunuus/Group\ 5590144.svg);
+    background-size: 46px 103.5px;
+    margin: 510px 0px 0px 40px;
+}
+
+.hun2 {
+    height: 103.5px;
+    width: 46px;
+    background-image: url(../images/hunuus/Group\ 5590204.svg);
+    background-size: 46px 103.5px;
+    margin: 500px 0px 0px 0px;
+}
+
+.hun3 {
+    height: 103.5px;
+    width: 46px;
+    background-image: url(../images/hunuus/Group\ 5590206.svg);
+    background-size: 46px 103.5px;
+    margin: 500px 0px 0px 130px;
+}
+
+.hun4 {
+    height: 103.5px;
+    width: 46px;
+    background-image: url(../images/hunuus/Group\ 5590836.svg);
+    background-size: 46px 103.5px;
+    margin: 500px 0px 0px 200px;
+}
+
+.hun5 {
+    height: 87px;
+    width: 39px;
+    background-image: url(../images/hunuus/Group\ 5590834.svg);
+    background-size: 39px 87px;
+    margin: 520px 0px 0px 130px;
+}
+
+.hun6 {
+    background-image: url(../images/hunuus/Group\ 5590207.svg);
+    height: 87px;
+    width: 39px;
+    background-size: 39px 87px;
+    margin: 525px 0px 0px 2px;
+}
+
+
+
+
+#hun{
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/hun-stand.svg);
+    background-size: 100% 100%;
+    width: 68.53px;
+    height: 100.8px;
+    z-index: 1;
+}
+
+.pressE{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin: -610px 0px 0px 730px;
+    background-image: url('../../museum/images/museum-uzver-room2-source/source/eButton.svg');
+    background-size: 100% 100%;
+}
+.area {
+    background-color: transparent;
+    height: 50px;
+    width: 180px;
+    margin: 510px 0px 0px -470px;
+}

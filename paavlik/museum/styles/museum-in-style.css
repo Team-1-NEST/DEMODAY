@@ -1,0 +1,35 @@
+body{
+    background-color: #111111;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gadna{
+    margin: 0;
+    height: 672px;
+    width: 979.53px;
+    display: flex;
+    overflow: hidden;
+}
+.side-chara {
+    left: 1300px; 
+    top: 500px;
+    position: absolute;
+    animation-name: side;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+}
+@keyframes side {
+    0%  { left: 500px; top: 500px;}
+    10% { left: 700px; top: 500px;}
+    25% { left: 700px; top: 500px;}
+    35% { left: 900px; top: 500px;}
+    50% { left: 900px; top: 500px;}
+    60% { left: 1100px; top: 500px;}
+    75% { left: 1100px; top: 500px;}
+    85% { left: 1300px; top: 500px;}
+   100% {left: 1300px; top: 500px;}
+
+}

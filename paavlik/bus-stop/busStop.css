@@ -1,0 +1,466 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+}
+.gameArea{
+    display: flex;
+    width: 979px;
+    height: 672px;
+    background-image: url("./images/mashin-zam.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.gerlenDohio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 7%;
+    height: 16%;
+    left: 65%;
+    top: 49.69%;
+    z-index: 0;
+    -webkit-user-drag: none;
+    background-image: url("./images/gerlen-dohio.svg");
+    background-size: 100% 100%;
+}
+/* .redLight{
+    position: relative;
+    width: 17px;
+    height: 17px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    border-radius: 50%; */
+    /* background-color: #9F0011; */
+/* }
+.greenLight{
+    position: relative;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #00B498;
+} */
+#hun{
+    display: flex;
+    justify-content: center;
+    background-image: url("./images/hun-stand.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 7%;
+    height: 15%;
+    z-index: 5;
+}
+.area{
+    position: relative;
+    width: 21.5%;
+    height: 7%;
+    top: 62%;
+    left: 4%;
+    background-color: transparent;
+}
+.area1{
+    position: relative;
+    width: 7.4%;
+    height: 7%;
+    top: 62%;
+    left: -29%;
+    background-color: transparent;
+}
+.pressE{
+    position: relative;
+    width: 25.9%;
+    height: 5.6%;
+    margin-left: -100px;
+    top: 7%;
+    background-image: url('./images/E-guide.svg');
+    background-size: 100% 100%;
+}
+.E{
+    position: relative;
+    width: 33.33px;
+    height: 38px;
+    left: 770px;
+    top: 280px;
+    background-image: url('./images/next.svg');
+    background-size: 100% 100%;
+}
+a{
+    position: absolute;
+    width: 266px;
+    height: 123px;
+    top: 42%;
+    background-color: transparent;
+    z-index: 2;
+}
+a:hover{
+    box-shadow: 0px 0px 0px 5px #351404 inset, 0px 0px 10px 10px #A6814E;
+}
+.muzei-button{
+    background-image: url("./images/muzei-yavah-button.svg");
+    background-size: 100% 100%;
+    margin: 0px 0px 0px -400px;
+}
+.zaisan-button{
+    background-image: url("./images/zaisan-yavah-button.svg");
+    background-size: 100% 100%;
+    margin: 0px 0px 0px 400px;
+}
+.gameOver{
+    position: absolute;
+    width: 989px;
+    height: 682px;
+    background-image: url("./images/game-over.svg");
+    background-size: 100% 100%;
+    z-index: 10;
+}
+.tiim{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 61px;
+    height: 15px;
+    left: 316.26px;
+    top: 444.36px;
+    background-image: url('./images/ТИЙМ.svg');
+    background-size: 100% 100%;
+}
+.tiim:hover{
+    box-shadow: 0px 0px 1px 1px white;
+}
+.ugui{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 61px;
+    height: 15px;
+    left: 598.8px;
+    top: 429.36px;
+    background-image: url('./images/ҮГҮЙ.svg');
+    background-size: 100% 100%;
+}
+.ugui:hover{
+    box-shadow: 0px 0px 1px 1px white;
+}
+/* .hoverIcon{
+    background-image: url('./images/hover-icon.svg');
+    background-size: 100% 100%; 
+    width: 10.97px;
+    height: 18.49px;
+    margin-left: -17px;
+} */
+.header{
+    position: absolute;
+    margin-left: 0%;
+    height: 40%;
+    width: 945px;
+}
+.claud-neg{
+    overflow: hidden;
+    height: 30%;
+    width: 103.5%;
+}
+.cloud-one{
+    height: 60%;
+    width: 30%;
+    top: 10%;
+    position: relative;
+    animation-name: cloudOne;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes cloudOne{
+    0%{left:-40% ;}
+    100%{left: 110%;}
+}
+
+.cloud-two{
+    position: relative;
+    height: 60%;
+    width: 40%;
+    top: 50%;
+    animation-name: cloudTwo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes cloudTwo{
+    0%{left:-30% ;}
+    100%{left: 130%;}
+}
+.cloud-three{
+    position: relative;
+    height: 40%;
+    width: 20%;
+    top: -10%;
+    animation-name: cloudThree;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes cloudThree{
+    0%{left:-90% ;}
+    100%{left: 80%;}
+}
+.cloud-four{
+    position: relative;
+    height: 25%;
+    width: 35%;
+    top: -30%;
+    animation-name: cloudFour;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes cloudFour{
+    0%{left:-30% ;}
+    100%{left: 130%;}
+}
+.cloud-five{
+    position: relative;
+    height: 55%;
+    width: 35%;
+    top: -60%;
+    animation-name: cloudFive;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    transform: rotate(180deg);
+}
+@keyframes cloudFive{
+    0%{left:-70% ;}
+    100%{left: 100%;}
+}
+.cloud-six{
+    position: relative;
+    height: 45%;
+    width: 25%;
+    top: -80%;
+    animation-name: cloudSix;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    transform: rotate(180deg);
+}
+@keyframes cloudSix{
+    0%{left:-50% ;}
+    100%{left: 110%;}
+}
+.cloud-seven{
+    position: relative;
+    height: 35%;
+    width: 25%;
+    margin-top: -50%;
+    animation-name: cloudSix;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    transform: rotate(180deg);
+}
+@keyframes cloudSix{
+    0%{left:-60% ;}
+    100%{left: 110%;}
+}
+.npc{
+    position: relative;
+    margin-left: -7%;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.npc1{
+    margin-left: -36%;
+    top: 54%;
+    left: 3%;
+    width: 3.7%;
+    height: 12.3%;
+    background-image: url("./images/npc1.svg");
+}
+.dog{
+    top: 57%;
+    left: 47%;
+    width: 7.4%;
+    height: 8.9%;
+    background-image: url("./images/dog.svg");
+}
+.npc2{
+    top: 57%;
+    left: 62%;
+    width: 3%;
+    height: 9.2%;
+    background-image: url("./images/npc2.svg");
+}
+.npc3{
+    top: 53%;
+    left: 90%;
+    width: 3.5%;
+    height: 11.6%;
+    background-image: url("./images/npc3.svg");
+}
+.npc4{
+    top: 53%;
+    left: 97%;
+    width: 3.7%;
+    height: 12%;
+    background-image: url("./images/npc4.svg");
+}
+.npc5{
+    top: 84%;
+    left: 50%;
+    width: 3.5%;
+    height: 11.5%;
+    background-image: url("./images/npc5.svg");
+    z-index: 4;
+}
+.npc6{
+    top: 84%;
+    left: 57%;
+    width: 4.3%;
+    height: 11%;
+    background-image: url("./images/npc6.svg");
+    z-index: 4;
+}
+.talkIcon{
+    position: relative;
+    left: 80%;
+    width: 26%;
+    height: 18.4%;
+    background-image: url("./images/talk-icon.svg");
+    background-size: 100% 100%;
+    z-index: 1;
+    animation-name: float;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    box-shadow: 0px 0px 1px 1px yellow;
+}
+
+@keyframes float{
+    0%{
+        top: -15%;
+    }
+    50%{
+        top: -18%;
+    }
+    100%{
+        top: -15%;
+    }
+}
+.carBlue{
+    position: relative;
+    width: 214.46px;
+    height: 95.35px;
+    top: 409px;
+    background-image: url("./images/car-blue.svg");
+    background-size: 100% 100%;
+    animation: carBlue 6s 0s infinite linear;
+    transform: scaleX(-1);
+    z-index: 2;
+}
+@keyframes carBlue{
+    0%{
+        left: 1500px ;
+        transform: scaleX(-1);
+    }
+    100%{
+        left: -500px; 
+        transform: scaleX(-1);
+    }
+}
+@keyframes carblue1{
+    0%{
+        left: 1500px;
+    }
+    100%{
+        left: 793px;
+    }
+}
+.carGray{
+    position: relative;
+    width: 195px;
+    height: 66.96px;
+    top: 435px;
+    background-image: url("./images/car-gray.svg");
+    background-size: 100% 100%;
+    animation: carGray 6s reverse 0s infinite linear;
+    transform: scaleX(-1);
+    z-index: 2;
+}
+@keyframes carGray {
+    0%{
+        left: -400px;
+    }
+    100%{
+        left: 1500px 
+    }
+}
+.carOrange{
+    position: relative;
+    width: 223.02px;
+    height: 93.4px;
+    top: 479px;
+    background-image: url("./images/car-orange.svg");
+    background-size: 100% 100%;
+    animation: carOrange 8s  0s infinite linear;
+    z-index: 3;
+}
+@keyframes carOrange{
+    0%{
+        left: -1000px;
+    }
+    100%{
+        left: 1500px;
+    } 
+}
+.carYellow{
+    position: relative;
+    width: 211px;
+    height: 100.79px;
+    top: 471px;
+    background-image: url("./images/car-yellow.svg");
+    background-size: 100% 100%;
+    transform: scaleX(-1);
+    animation: carYellow 6s  0s infinite linear;
+    z-index: 3;
+}
+@keyframes carYellow{
+    0%{
+        left: -800px;
+    }
+    100%{
+        left: 1000px;
+    } 
+}
+
+.alhdagHun{
+    background-image: url('./images/hunGIF.gif');
+    background-size: 100% 100%;
+    width: 217px;
+    height: 399px;
+    will-change: background-position;
+    animation-name: walk;
+    animation-timing-function: steps(5);
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+}
+@keyframes wlk{
+    100%{
+        background-position: -217px 0;
+    }
+}
+.dialog{
+    position: absolute;
+    width: 852px;
+    height: 343px;
+    background-size: 100% 100%;
+    background-image: url('./images/dialog1.svg');
+}

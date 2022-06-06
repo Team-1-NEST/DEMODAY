@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 70%;
+    background-image: url(./source/background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+#ChingisKhaan {
+    position: absolute;
+    top: 20vh;
+    left: 48vw;
+}
+
+#KhubilaiKhaan {
+    position: absolute;
+    top: 32vh;
+    left: 40vw;
+}
+
+#UguudeiKhaan {
+    position: absolute;
+    top: 32vh;
+    right: 40vw;
+}
+
+#ChingisKhaanSambar {
+    position: absolute;
+    top: 20vh;
+    left: 48vw;
+}
+
+#KhubilaiKhaanSambar {
+    position: absolute;
+    top: 32vh;
+    left: 40vw;
+}
+
+#UguudeiKhaanSambar {
+    position: absolute;
+    top: 43vh;
+    right: 41vw;
+}

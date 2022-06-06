@@ -1,0 +1,418 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.main {
+    height: 402px;
+    width: 764px;
+    background-color: rgba(114, 83, 23, 1);
+    position: absolute;
+}
+
+.maiin {
+    height: 658px;
+    width: 965.52px;
+    background: rgba(166, 130, 80, 1);
+    border: 7px solid rgba(114, 83, 23, 1);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    filter: brightness(50%);
+}
+
+
+
+
+.aimag {
+    position: absolute;
+    height: 186.65px;
+    width: 764px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 215.35px;
+}
+
+/* p {
+    font-family: Press Start 2P;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: blanchedalmond;
+} */
+
+canvas {
+    position: absolute;
+}
+
+#div1 {
+    background-image: url(./images/Vector\ 291\ \(1\).svg);
+    height: 197.35px;
+    width: 399.73px;
+    background-size: 399.73px 197.35px;
+    position: absolute;
+    margin: 18px 0px 0px 182.135px;
+}
+
+.arhangai {
+    background-image: url(./images/arhangai.svg);
+    height: 46.09px;
+    width: 71.68px;
+    background-size: 71.68px 46.09px;
+}
+
+.baynhongor {
+    background-image: url(./images/bayanhongor.svg);
+    height: 99.47px;
+    width: 54.34px;
+    background-size: 54.34px 99.47px;
+}
+
+.baynulgii {
+    background-image: url(./images/baynulgii.svg);
+    height: 66.59px;
+    width: 53.79px;
+    background-size: 53.79px 66.59px;
+}
+
+.bulgan {
+    background-image: url(./images/bulgan.svg);
+    height: 60.53px;
+    width: 40.59px;
+    background-size: 40.59px 60.53px;
+}
+
+.dornod {
+    background-image: url(./images/dornod.svg);
+    height: 77.32px;
+    width: 101.94px;
+    background-size: 101.94px 77.32px;
+}
+
+.dornogobi {
+    background-image: url(./images/dornogobi.svg);
+    height: 81.17px;
+    width: 55.31px;
+    background-size: 55.31px 81.17px;
+}
+
+.dundgobi {
+    background-image: url(./images/dundgobi.svg);
+    height: 50.08px;
+    width: 64.8px;
+    background-size: 64.8px 50.08px;
+}
+
+.gobialtai {
+    background-image: url(./images/gobialtai.svg);
+    height: 98.51px;
+    width: 69.61px;
+    background-size: 69.61px 98.51px;
+}
+
+.gobisumber {
+    background-image: url(./images/gobisumber.svg);
+    height: 20.77px;
+    width: 14.86px;
+    background-size: 14.86px 20.77px;
+}
+.hentii {
+    background-image: url(./images/hentii.svg);
+    height: 64.25px;
+    width: 55.72px;
+    background-size: 55.72px 64.25px;
+}
+.hovd {
+    background-image: url(./images/hovd.svg);
+    height: 78.14px;
+    width: 48.01px;
+    background-size: 48.01px 78.14px;
+}
+.huvsgul {
+    background-image: url(./images/huvsgul.svg);
+    height: 75.94px;
+    width: 75.94px;
+    background-size: 75.94px 75.94px;
+}
+.selenge {
+    background-image: url(./images/selenge.svg);
+    height: 37.56px;
+    width: 53.93px;
+    background-size: 53.93px 37.56px;
+}
+.suhbaatar {
+    background-image: url(./images/suhbaatar.svg);
+    height: 58.61px;
+    width: 68.93px;
+    background-size: 68.93px 58.61px;
+}
+.tov {
+    background-image: url(./images/tov.svg);
+    height: 53.1px;
+    width: 64.39px;
+    background-size: 64.39px 53.1px;
+}
+.umnugobi {
+    background-image: url(./images/umnugobi.svg);
+    height: 69.43px;
+    width: 111.49px;
+    background-size: 111.49px 69.43px;
+}
+.uvs {
+    background-image: url(./images/uvs.svg);
+    height: 47.74px;
+    width: 73.6px;
+    background-size: 73.6px 47.74px;
+}
+.uvurhangai {
+    background-image: url(./images/uvurhangai.svg);
+    height: 65.35px;
+    width: 45.95px;
+    background-size: 45.95px 65.35px;
+}
+.zavhan {
+    background-image: url(./images/zavhan.svg);
+    height: 66.59px;
+    width: 76.77px;
+    background-size: 76.77px 66.59px;
+}
+
+/* -Quiz styles--------------------------------------------------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.rec1{
+    width: 590px;
+    height: 290.24px;
+    background: #351404;
+    border: 4px solid #A6814E;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+    margin-top: -200px;
+    filter: blur(0px);
+}
+
+.rec2{
+    background: #351404; 
+    border: 4px solid #A6814E;
+    width: 324.93px;
+    height: 55px;
+    color: #E5DBB1;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.3061px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 650px;
+    height: 152px;
+    position: absolute;
+    margin-top: 300px;
+    z-index: 2;
+}
+
+#button{
+    margin:20px;
+    width: 260.86px;
+    height: 61.54px;
+    background: #A6814E;
+    border: 4px solid #351404;
+    color: #FFFFFF;
+    text-align:center;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.3061px;
+    line-height: 27px;
+    z-index: 2;
+}
+
+#next {
+    background-image: url(../puzzle/images/next.svg);
+    height: 37px;
+    width: 47.76px;
+    background-size: 47.76px 37px;
+    z-index: 3;
+    margin: 550px 0px 0px 850px;
+    background-color: transparent;
+    border: transparent;
+    filter: brightness(150%);
+}
+
+#basar {
+    background-image: url(../puzzle/images/basar.svg);
+    height: 130px;
+    width: 143px;
+    background-size: 143px 130px;
+    border: 4px solid #A6814E;
+    margin: 0px 0px 0px 30px;
+}
+
+#info {
+    height: 223px;
+    width: 558px;
+    font-family: 'Press Start 2P';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A6814E;
+    margin: 0px 0px 0px 210px;
+}
+
+#infobox {
+    height: 343px;
+    width: 852px;
+    background: #351404;
+    border: 4px solid #A6814E;
+    display:flex;
+    align-items: center;
+    z-index: 2;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+}
+
+#bg {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 852px;
+    height: 357px;
+
+    background: #351404;
+    border: 4px solid #A6814E;
+
+    display: flex;
+    justify-content: center;
+}
+
+#text1 {
+    position: absolute;
+    width: 256px;
+    height: 18px;
+    margin: 30px 0px 0px 0px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.227px;
+    line-height: 17px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#text2 {
+    position: absolute;
+    width: 384px;
+    height: 34px;
+    margin: 100px 0px 0px 0px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    /* identical to box height, or 189% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+/* hint-------------------------------------------------- */
+
+#gadar {
+    height: 550px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: #A6814E;
+    border: 4px solid #351404;
+}
+
+#aimag {
+    width: 250px;
+    height: fit-content;
+    object-fit: fill;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.text {
+    position: absolute;
+    width: 131px;
+    height: 32px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 80px;
+
+    color: #000000;
+}
+
+#hint1 {
+    height: 30px;
+    width: 30px;
+    margin: 0px 800px 600px 0px;
+    background-color: #A6814E;
+    border: 1px solid #351404;
+    z-index: 1;
+}
+
+.hint {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #351404;
+    background-color: #A6814E;
+    margin: 0px 800px 600px 0px;
+}
+
+.gobi {
+    margin: 0px 0px 0px 30px;
+}
+.text4 {
+    margin: 0px 0px 0px 120px;
+}
+
+#next4 {
+    background-image: url(../puzzle/images/next.svg);
+    height: 37px;
+    width: 47.76px;
+    background-size: 47.76px 37px;
+    z-index: 3;
+    margin: 290px 0px 0px 750px;
+    background-color: transparent;
+    border: transparent;
+    filter: brightness(150%);
+}
